@@ -91,7 +91,7 @@ export default function PostForm({ post }) {
     }
 
     return (
-      <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
+      <form onSubmit={handleSubmit(submit)} className="flex flex-wrap smallSize">
         <div className="w-2/3 px-2">
           <Input
             label="Title :"

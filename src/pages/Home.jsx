@@ -5,6 +5,8 @@ import appwriteService from "../appwrite/config";
 import {Container, PostCard} from '../components'
 import { useSelector } from 'react-redux';
 
+import "./home.css"
+
 function Home() {
     const [posts, setPosts] = useState([])
     const [loader,setLoader] = useState(true)
@@ -39,7 +41,7 @@ function Home() {
     return (
         <div className='w-full py-8'>
             <Container>
-                <div className='flex flex-wrap'>
+                <div className='flex  flex-wrap smallSize' >
                     {loader && <h1 className='text-4xl text-center'>Posts Loading..</h1>}
                     {posts.map((post) => (
                         <div key={post.$id} className='p-2 w-1/4'>
