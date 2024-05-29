@@ -1,7 +1,7 @@
 # React + Vite
-nstall the project dependencies using your package manager : npm install
-Start the development server to run your Vite project : npm run dev
-When you’re ready to build your project for production, run: npm run build
+nstall the project dependencies using your package manager : npm install <br/>
+Start the development server to run your Vite project : npm run dev <br/>
+When you’re ready to build your project for production, run: npm run build <br/>
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
